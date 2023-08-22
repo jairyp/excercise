@@ -1,0 +1,32 @@
+2023-08-22 02:35:49,925 INFO [background-preinit] o.h.v.i.u.Version [Version.java:21] HV000001: Hibernate Validator 8.0.0.Final
+2023-08-22 02:35:49,964 INFO [main] c.d.e.ExerciseApplication [StartupInfoLogger.java:51] Starting ExerciseApplication using Java 19.0.1 with PID 8872 (D:\PROYECTOS\PROYECTOS_ENTREVISTAS\exercise\target\classes started by jf_80 in D:\PROYECTOS\PROYECTOS_ENTREVISTAS\exercise)
+2023-08-22 02:35:49,965 INFO [main] c.d.e.ExerciseApplication [SpringApplication.java:630] No active profile set, falling back to 1 default profile: "default"
+2023-08-22 02:35:50,891 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:138] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-08-22 02:35:50,962 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:208] Finished Spring Data repository scanning in 63 ms. Found 3 JPA repository interfaces.
+2023-08-22 02:35:51,534 INFO [main] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
+2023-08-22 02:35:51,548 INFO [main] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2023-08-22 02:35:51,549 INFO [main] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2023-08-22 02:35:51,550 INFO [main] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/10.1.4]
+2023-08-22 02:35:51,658 INFO [main] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2023-08-22 02:35:51,658 INFO [main] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:291] Root WebApplicationContext: initialization completed in 1641 ms
+2023-08-22 02:35:51,815 INFO [main] o.h.j.i.u.LogHelper [LogHelper.java:31] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-08-22 02:35:51,870 INFO [main] o.h.Version [Version.java:44] HHH000412: Hibernate ORM core version 6.1.6.Final
+2023-08-22 02:35:52,244 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2023-08-22 02:35:52,477 INFO [main] c.z.h.p.HikariPool [HikariPool.java:565] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5e0f2c82
+2023-08-22 02:35:52,479 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2023-08-22 02:35:52,511 INFO [main] SQL dialect [DialectFactoryImpl.java:66] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-08-22 02:35:53,577 INFO [main] o.h.e.t.j.p.i.JtaPlatformInitiator [JtaPlatformInitiator.java:51] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-08-22 02:35:53,589 INFO [main] o.s.o.j.LocalContainerEntityManagerFactoryBean [AbstractEntityManagerFactoryBean.java:437] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-08-22 02:35:55,304 INFO [main] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2023-08-22 02:35:55,325 INFO [main] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path ''
+2023-08-22 02:35:55,333 INFO [main] c.d.e.ExerciseApplication [StartupInfoLogger.java:57] Started ExerciseApplication in 5.794 seconds (process running for 6.673)
+2023-08-22 02:36:10,027 INFO [http-nio-8080-exec-3] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-08-22 02:36:10,027 INFO [http-nio-8080-exec-3] o.s.w.s.DispatcherServlet [FrameworkServlet.java:532] Initializing Servlet 'dispatcherServlet'
+2023-08-22 02:36:10,029 INFO [http-nio-8080-exec-3] o.s.w.s.DispatcherServlet [FrameworkServlet.java:554] Completed initialization in 2 ms
+2023-08-22 02:36:10,324 INFO [http-nio-8080-exec-3] c.d.e.s.i.MovimientosServiceImpl [MovimientosServiceImpl.java:63] Realizando un Deposito
+2023-08-22 02:36:10,324 INFO [http-nio-8080-exec-3] c.d.e.s.i.MovimientosServiceImpl [MovimientosServiceImpl.java:66] Transaccion cliente 11
+2023-08-22 02:36:40,604 INFO [http-nio-8080-exec-4] c.d.e.s.i.MovimientosServiceImpl [MovimientosServiceImpl.java:63] Realizando un Deposito
+2023-08-22 02:36:40,604 INFO [http-nio-8080-exec-4] c.d.e.s.i.MovimientosServiceImpl [MovimientosServiceImpl.java:66] Transaccion cliente 11
+2023-08-22 02:42:34,394 INFO [SpringApplicationShutdownHook] o.s.o.j.LocalContainerEntityManagerFactoryBean [AbstractEntityManagerFactoryBean.java:650] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-08-22 02:42:34,396 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-1 - Shutdown initiated...
+2023-08-22 02:42:34,399 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-1 - Shutdown completed.

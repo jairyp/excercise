@@ -1,0 +1,27 @@
+version: '3.7'
+services:
+  devsuDB:
+    image: postgres
+    container_name: devsuDB
+    volumes:
+      - bd_data:/var/postgresql/data
+    restart: always
+    ports:
+      - 5432:5432
+    expose:
+      - 5432
+    networks:
+      - testing_net
+    environment:
+      POSTGRES_USER: devsu
+      POSTGRES_PASSWORD: root
+      POSTGRES_DB: devsu
+    healthcheck:
+      test: pg_isready -U devsu -d devsu
+      timeout: 20s
+      interval: 10s
+      retries: 10
+volumes:
+  bd_data:
+networks:
+  testing_net:
